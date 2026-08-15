@@ -18,6 +18,7 @@ export type MapDefinition = {
 
   background: {
     url?: string;
+    videoUrl?: string;
 
     position: Vector3Tuple;
 

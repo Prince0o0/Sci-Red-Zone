@@ -126,9 +126,9 @@ export default function GameScene() {
 
   const isLastMap = currentMapIndex === GAME_MAPS.length - 1;
 
-  if (!currentMap) {
-    return null;
-  }
+  // if (!currentMap) {
+  //   return null;
+  // }
 
   function startMapExitTransition() {
     if (mapTransitionBusyRef.current) {
@@ -280,6 +280,9 @@ export default function GameScene() {
       window.clearTimeout(timer);
     };
   }, []);
+   if (!currentMap) {
+    return null;
+  }
 
   return (
     <div className="relative h-full w-full">

@@ -79,9 +79,11 @@ export const GAME_MAPS: MapDefinition[] = [
     },
     background: {
       // url: "/backgrounds/map02-skybridge.webp",
+      // videoUrl: "/videos/DNA-Red.mp4",
+      videoUrl: "/videos/DNA.mp4",
 
       position: [5, 7, -5],
-      size: [34, 18],
+      size: [25, 12],
       fallbackColor: "#263039",
     },
 
