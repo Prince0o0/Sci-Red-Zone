@@ -312,7 +312,7 @@ export default function GameScene() {
 
         <Physics
           gravity={[0, -18, 0]}
-          debug={true}
+          debug={false}
         >
           <GameMap
             key={`map-${currentMap.id}`}
