@@ -5,7 +5,7 @@ import { RigidBody } from "@react-three/rapier";
 
 export default function LaboratoryCollision() {
   const collision = useGLTF(
-    "/maps/laboratory/Labatory Edit2.glb",
+    "/maps/laboratory/Labatory Edit maybe comp.glb",
   );
 
   return (
@@ -23,5 +23,5 @@ export default function LaboratoryCollision() {
 }
 
 useGLTF.preload(
-  "/maps/laboratory/Labatory Edit2.glb",
+  "/maps/laboratory/Labatory Edit maybe comp.glb",
 );

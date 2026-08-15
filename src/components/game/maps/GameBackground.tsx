@@ -102,8 +102,8 @@ function VideoBackground({
 
         return () => {
             video.pause();
-            video.src = "";
-            texture.dispose();
+            // video.src = "";
+            // texture.dispose();
         };
     }, [texture]);
 
